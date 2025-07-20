@@ -7,7 +7,6 @@ const PortfolioHeader = () => {
   const [activeSection, setActiveSection] = useState("about");
 
   const navItems = [
-    { id: "about", label: "About Me" },
     { id: "tech-stack", label: "Tech Stack" },
     { id: "experience", label: "Experience" },
     { id: "education", label: "Education" },

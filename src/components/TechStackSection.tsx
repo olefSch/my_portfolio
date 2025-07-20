@@ -122,12 +122,17 @@ const TechStackSection = () => {
           </div>
 
           {/* Floating Tech Icons */}
-          <div className="relative overflow-hidden h-24 mb-16">
+          <div className="relative overflow-hidden h-32 mb-16">
             <div className="absolute inset-0 flex items-center">
-              <div className="flex animate-scroll-right space-x-8">
-                {["🐍", "⚡", "☁️", "🐳", "📊", "🤖", "🔧", "📈", "💾", "🌐", "⚙️", "📋"].map((icon, index) => (
-                  <div key={index} className="flex-shrink-0 w-16 h-16 bg-card/50 rounded-full flex items-center justify-center text-2xl glow-box">
-                    {icon}
+              <div className="flex animate-scroll-right space-x-12">
+                {["Python.svg", "FastAPI.svg", "Google Cloud.svg", "Docker.svg", "PostgresSQL.svg", "PyTorch.svg", "Kubernetes.svg", "NumPy.svg", "Pandas.svg", "ml_flow.svg", "Azure Devops.svg", "Apache Spark.svg", "Databricks.svg", "GitHub Actions.svg", "Git.svg", "Prometheus.svg", "SQLAlchemy.svg"].map((icon, index) => (
+                  <div key={index} className="flex-shrink-0 w-24 h-24 bg-card/50 rounded-full flex items-center justify-center text-2xl glow-box">
+                    <img src={`/${icon}`} alt={icon.replace('.svg', '')} className="w-12 h-12" />
+                  </div>
+                ))}
+                {["Python.svg", "FastAPI.svg", "Google Cloud.svg", "Docker.svg", "PostgresSQL.svg", "PyTorch.svg", "Kubernetes.svg", "NumPy.svg", "Pandas.svg", "ml_flow.svg", "Azure Devops.svg", "Apache Spark.svg", "Databricks.svg", "GitHub Actions.svg", "Git.svg", "Prometheus.svg", "SQLAlchemy.svg"].map((icon, index) => (
+                  <div key={index + 17} className="flex-shrink-0 w-24 h-24 bg-card/50 rounded-full flex items-center justify-center text-2xl glow-box">
+                    <img src={`/${icon}`} alt={icon.replace('.svg', '')} className="w-12 h-12" />
                   </div>
                 ))}
               </div>
