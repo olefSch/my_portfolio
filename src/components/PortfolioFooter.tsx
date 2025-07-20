@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, BookOpen, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, BookOpen, Mail } from "lucide-react";
 
 const PortfolioFooter = () => {
   const currentYear = new Date().getFullYear();
@@ -49,9 +49,7 @@ const PortfolioFooter = () => {
           {/* Bottom */}
           <div className="text-center text-sm text-muted-foreground border-t border-border pt-6">
             <div className="flex items-center justify-center space-x-1">
-              <span>© {currentYear} Ole Schildt. Made with</span>
-              <Heart className="w-4 h-4 text-red-400 fill-current" />
-              <span>and lots of ☕</span>
+              <span>© {currentYear} Ole Schildt. All rights reserved.</span>
             </div>
           </div>
         </div>

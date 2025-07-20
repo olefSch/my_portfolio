@@ -94,14 +94,14 @@ export default {
 					}
 				},
 				'scroll-right': {
-					'0%': { transform: 'translateX(-100%)' },
-					'100%': { transform: 'translateX(100vw)' }
+					'0%': { transform: 'translateX(0)' },
+					'100%': { transform: 'translateX(-100%)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'scroll-right': 'scroll-right 20s linear infinite'
+				'scroll-right': 'scroll-right 40s linear infinite'
 			}
 		}
 	},
