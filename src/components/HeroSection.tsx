@@ -55,11 +55,11 @@ const HeroSection = () => {
               </div>
               <div className="glass-card p-4 rounded-lg">
                 <p className="text-sm text-accent font-medium">🌱 I'm a</p>
-                <p className="text-lg font-semibold">LLM Ops / ML Engineer</p>
+                <p className="text-lg font-semibold">ML/LLM Ops Engineer</p>
               </div>
               <div className="glass-card p-4 rounded-lg">
                 <p className="text-sm text-accent font-medium">💬 Ask me about</p>
-                <p className="text-lg font-semibold">Football, AI & Self-hosting</p>
+                <p className="text-lg font-semibold">Football, automation and hiking</p>
               </div>
               <div className="glass-card p-4 rounded-lg">
                 <p className="text-sm text-accent font-medium">⚡ Fun fact</p>

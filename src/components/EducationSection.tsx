@@ -6,11 +6,11 @@ const EducationSection = () => {
   const education = [{
     degree: "B.Sc. Business Informatics",
     institution: "DHBW Heilbronn",
-    period: "2021 - 2024",
+    period: "2022 - 2025",
     location: "Heilbronn, Germany",
     type: "Dual Studies",
     description: ["Focus on Data Science and Machine Learning", "Thesis on LLM Operations in E-Commerce", "Corporate partnership with Lidl"],
-    grade: "Final Grade: 1.8"
+    grade: "Final Grade: A"
   }];
 
   return (
