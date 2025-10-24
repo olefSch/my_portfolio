@@ -3,20 +3,20 @@ import { Badge } from "@/components/ui/badge";
 import { Building, Calendar, MapPin } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [{
-    title: "ML Engineer / LLM Ops Engineer",
+    title: "ML/LLM Ops Engineer",
     company: "Lidl E-Commerce",
-    period: "2023 - Present",
+    period: "2025 - Present",
     location: "Heilbronn, Germany",
-    type: "Full-time",
-    description: ["Building LLM operations pipelines for e-commerce", "Developing ML infrastructure and monitoring", "Deploying AI solutions to production"],
-    technologies: ["Python", "TensorFlow", "Google Cloud", "Kubernetes", "MLflow"]
+    type: "Part-time (80%)",
+    description: ["Deploying and monitoring machine learing models in production", "Automated training pipelines", "Continuous integration and delivery"],
+    technologies: ["Python", "Google Cloud", "Kubernetes", "MLflow", "Databricks", "Spark", "AzureDevOps"]
   }, {
-    title: "Data Scientist",
-    company: "Lidl Digital",
-    period: "2021 - 2023",
+    title: "Data Science -> ML Engineer",
+    company: "Lidl Digital -> Lidl E-Commerce",
+    period: "2022 - 2025",
     location: "Heilbronn, Germany",
     type: "Corporate Student",
-    description: ["Data science projects analyzing customer behavior", "Developing internal ML tools and dashboards", "Working in agile development teams"],
+    description: ["Developing computer vision models", "GenAI Monitoirng and Observability", "Spark ETL pipelines for data processing"],
     technologies: ["Python", "SQL", "Streamlit", "Pandas", "Docker"]
   }];
   return <section id="experience" className="section-padding bg-section-gradient">

@@ -8,26 +8,26 @@ const BlogsSection = () => {
     {
       title: "The Path to LLMs: Understanding N-Grams, Embeddings, and Transformers",
       excerpt: "The complexity of LLMs is built upon surprisingly straightforward ideas. Explore the evolution from n-grams to transformers.",
-      publishedDate: "Dec 15, 2024",
-      readTime: "8 min read",
-      tags: ["Machine Learning", "LLMs", "Deep Learning"],
-      link: "https://medium.com/@olefSch/llms-evolution"
+      publishedDate: "Jun 19, 2025",
+      readTime: "14 min read",
+      tags: ["Machine Learning", "LLMs", "Embeddings"],
+      link: "https://medium.com/towards-artificial-intelligence/the-path-to-llms-understanding-n-grams-embeddings-and-transformers-3bb1ca5d8b11"
     },
     {
-      title: "E-Commerce Data Architecture: Building a Data Mesh",
+      title: "Powering the Future of E-Commerce: A Blueprint for a Data Mesh Architecture",
       excerpt: "A blueprint for data mesh architecture in e-commerce. Design flexible, scalable data platforms for modern retail.",
-      publishedDate: "Nov 28, 2024",
-      readTime: "12 min read",
+      publishedDate: "Jun 16, 2025",
+      readTime: "8 min read",
       tags: ["Data Architecture", "E-Commerce", "Data Mesh"],
-      link: "https://medium.com/@olefSch/data-mesh-ecommerce"
+      link: "https://medium.com/google-cloud/powering-the-future-of-e-commerce-044653af9627"
     },
     {
-      title: "Football Analytics with AI: Predicting Match Outcomes",
-      excerpt: "Combining passion for football with ML. Building predictive models using player statistics and team performance data.",
-      publishedDate: "Jul 30, 2024",
-      readTime: "12 min read",
-      tags: ["Football", "Sports Analytics", "ML"],
-      link: "https://medium.com/@olefSch/football-analytics"
+      title: "Top 5 LLM Ops Frameworks You Should Know in 2025",
+      excerpt: "This article highlights the need for LLM Ops to manage AI application costs and complexity. It compares top frameworks like LangSmith, Langfuse, Phoenix, MLflow, and OpenLLMetry, outlining their key strengths for 2025.",
+      publishedDate: "Jul 13, 2025",
+      readTime: "6 min read",
+      tags: ["LLMs", "Observability", "Monitoring", "Operations"],
+      link: "https://medium.com/towards-artificial-intelligence/top-5-llm-ops-frameworks-you-should-know-in-2025-ba7b822d6ca4"
     }
   ];
 
