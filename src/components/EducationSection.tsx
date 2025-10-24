@@ -3,7 +3,15 @@ import { Badge } from "@/components/ui/badge";
 import { GraduationCap, Calendar, MapPin } from "lucide-react";
 
 const EducationSection = () => {
-  const education = [{
+    const education = [{
+    degree: "Certification Program - Computer Science",
+    institution: "DHBW Center of Advanced Studies",
+    period: "2025 - Present",
+    location: "Heilbronn, Germany",
+    type: "Master Level Certifications",
+    description: ["Focus on advanced topics in Big Data and Cloud Computing", "Advanced Techniques for Software Engineering"],
+    grade: "Grade: added to Master's Degree - Ongoing"
+  }, {
     degree: "B.Sc. Business Informatics",
     institution: "DHBW Heilbronn",
     period: "2022 - 2025",
