@@ -3,11 +3,11 @@ import { Badge } from "@/components/ui/badge";
 import { Building, Calendar, MapPin } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [{
-    title: "ML/LLM Ops Engineer",
+    title: "Junior ML/LLM Ops Engineer",
     company: "Lidl E-Commerce",
     period: "2025 - Present",
     location: "Heilbronn, Germany",
-    type: "Part-time (80%)",
+    type: "Part-time (80% - 32h/week)",
     description: ["Deploying and monitoring machine learing models in production", "Automated training pipelines", "Continuous integration and delivery"],
     technologies: ["Python", "Google Cloud", "Kubernetes", "MLflow", "Databricks", "Spark", "AzureDevOps"]
   }, {
