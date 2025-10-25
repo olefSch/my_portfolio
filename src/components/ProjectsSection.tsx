@@ -6,22 +6,22 @@ import { Github, ExternalLink } from "lucide-react";
 const ProjectsSection = () => {
   const favoriteProjects = [
     {
-      title: "LLM Operations Framework",
+      title: "LLM Operations Framework for Observability",
       description: "Framework for deploying and monitoring LLMs in production with automated retraining and performance monitoring.",
-      technologies: ["Python", "Docker", "Kubernetes", "Prometheus"],
-      github: "https://github.com/olefSch/llm-ops-framework"
+      technologies: ["Python", "Google Cloud", "GitHub Actions", "FastAPI"],
+      github: "https://github.com/olefSch/gcp-llm-tracing-and-monitoring"
     },
     {
-      title: "E-Commerce ML Pipeline",
-      description: "End-to-end ML pipeline for product recommendations and demand forecasting in e-commerce environments.",
-      technologies: ["TensorFlow", "MLflow", "Google Cloud", "FastAPI"],
-      github: "https://github.com/olefSch/ecommerce-ml-pipeline"
+      title: "Tranlation Library",
+      description: "This library provides an easy-to-use interface for translating text using both local transformer models and large language models (LLMs) from popular providers.",
+      technologies: ["Python", "Ollama", "Hugging Face"],
+      github: "https://easy-nlp-translate.de/"
     },
     {
-      title: "Data Mesh Architecture",
-      description: "Implementation of data mesh architecture for enterprise data management with domain-driven ownership.",
-      technologies: ["Apache Spark", "Kafka", "Snowflake", "dbt"],
-      github: "https://github.com/olefSch/data-mesh-implementation"
+      title: "Football Analytics",
+      description: "A football analytics application that uses computer vision to analyze match footage, providing insights on player performance and tactics.",
+      technologies: ["Python", "Docker Compose", "FastAPI", "YOLO", "Numpy", "Streamlit"],
+      github: "https://github.com/olefSch/football_analytics"
     }
   ];
 
