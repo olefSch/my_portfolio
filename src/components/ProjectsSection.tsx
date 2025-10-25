@@ -7,7 +7,7 @@ const ProjectsSection = () => {
   const favoriteProjects = [
     {
       title: "LLM Operations Framework for Observability",
-      description: "Framework for deploying and monitoring LLMs in production with automated retraining and performance monitoring.",
+      description: "Framework for observing and monitoring LLMs within GCP.",
       technologies: ["Python", "Google Cloud", "GitHub Actions", "FastAPI"],
       github: "https://github.com/olefSch/gcp-llm-tracing-and-monitoring"
     },
