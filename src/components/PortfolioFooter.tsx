@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, BookOpen, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, BookOpen } from "lucide-react";
 
 const PortfolioFooter = () => {
   const currentYear = new Date().getFullYear();
@@ -18,11 +18,6 @@ const PortfolioFooter = () => {
       name: "Medium",
       icon: BookOpen,
       url: "https://medium.com/@olefSch",
-    },
-    {
-      name: "Email",
-      icon: Mail,
-      url: "mailto:ole.schildt@example.com",
     }
   ];
 
@@ -38,7 +33,7 @@ const PortfolioFooter = () => {
             <div className="flex justify-center space-x-6 mb-4">
               {socialLinks.map(social => (
                 <Button key={social.name} size="sm" variant="ghost" asChild>
-                  <a href={social.url} target={social.name !== "Email" ? "_blank" : undefined} rel={social.name !== "Email" ? "noopener noreferrer" : undefined}>
+                  <a href={social.url} target="_blank" rel="noopener noreferrer">
                     <social.icon className="w-5 h-5" />
                   </a>
                 </Button>
@@ -49,9 +44,7 @@ const PortfolioFooter = () => {
           {/* Bottom */}
           <div className="text-center text-sm text-muted-foreground border-t border-border pt-6">
             <div className="flex items-center justify-center space-x-1">
-              <span>© {currentYear} Ole Schildt. Made with</span>
-              <Heart className="w-4 h-4 text-red-400 fill-current" />
-              <span>and lots of ☕</span>
+              <span>© {currentYear} Ole Schildt. All rights reserved.</span>
             </div>
           </div>
         </div>
