@@ -11,13 +11,13 @@ const ExperienceSection = () => {
     description: ["Deploying and monitoring machine learing models in production", "Automated training pipelines", "Continuous integration and delivery"],
     technologies: ["Python", "Google Cloud", "Kubernetes", "MLflow", "Databricks", "Spark", "AzureDevOps"]
   }, {
-    title: "Data Science -> ML Engineer",
-    company: "Lidl Digital -> Lidl E-Commerce",
+    title: "Data Science → ML Engineer",
+    company: "Lidl Digital → Lidl E-Commerce",
     period: "2022 - 2025",
     location: "Heilbronn, Germany",
     type: "Corporate Student",
     description: ["Developing computer vision models", "GenAI Monitoirng and Observability", "Spark ETL pipelines for data processing"],
-    technologies: ["Python", "SQL", "Streamlit", "Pandas", "Docker"]
+    technologies: ["Python", "SQL", "Spark", "Snowflake", "MLflow"]
   }];
   return <section id="experience" className="section-padding bg-section-gradient">
       <div className="container mx-auto px-4">

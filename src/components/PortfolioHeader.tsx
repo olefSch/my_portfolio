@@ -4,9 +4,10 @@ import { Menu, X } from "lucide-react";
 
 const PortfolioHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("about");
+  const [activeSection, setActiveSection] = useState("hero");
 
   const navItems = [
+    { id: "hero", label: "Hero" },
     { id: "tech-stack", label: "Tech Stack" },
     { id: "experience", label: "Experience" },
     { id: "education", label: "Education" },
@@ -46,12 +47,14 @@ const PortfolioHeader = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-xl font-bold gradient-text">Ole Schildt</span>
+            <a href="#hero" onClick={() => scrollToSection('hero')} className="cursor-pointer">
+              <span className="text-xl font-bold gradient-text">Ole Schildt</span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
+            {navItems.filter(item => item.id !== 'hero').map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
@@ -79,7 +82,7 @@ const PortfolioHeader = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4">
             <nav className="flex flex-col space-y-4">
-              {navItems.map((item) => (
+              {navItems.filter(item => item.id !== 'hero').map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}

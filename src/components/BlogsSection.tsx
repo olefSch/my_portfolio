@@ -38,7 +38,7 @@ const BlogsSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Latest <span className="gradient-text">Blogs</span>
+              Own <span className="gradient-text">Blogs</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               My favorite articles on AI, ML, and software engineering

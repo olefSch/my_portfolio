@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-hero-gradient"></div>
       
@@ -56,7 +56,7 @@ const HeroSection = () => {
                 </div>
                 <div className="glass-card p-4 rounded-lg">
                   <p className="text-sm text-accent font-medium">💬 Ask me about</p>
-                  <p className="text-lg font-semibold">Football, automation and hiking</p>
+                  <p className="text-lg font-semibold">Everything regarding football, automation and techno music</p>
                 </div>
                 <div className="glass-card p-4 rounded-lg">
                   <p className="text-sm text-accent font-medium">⚡ Fun fact</p>
