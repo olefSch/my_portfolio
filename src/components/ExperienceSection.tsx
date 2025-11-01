@@ -16,7 +16,7 @@ const ExperienceSection = () => {
     period: "2022 - 2025",
     location: "Heilbronn, Germany",
     type: "Corporate Student",
-    description: ["Developing computer vision models", "GenAI Monitoirng and Observability", "Spark ETL pipelines for data processing"],
+    description: ["Developing computer vision models", "GenAI Monitoring and Observability", "Spark ETL pipelines for data processing"],
     technologies: ["Python", "SQL", "Spark", "Snowflake", "MLflow"]
   }];
   return <section id="experience" className="section-padding bg-section-gradient">
