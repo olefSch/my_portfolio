@@ -12,7 +12,7 @@ const ProjectsSection = () => {
       github: "https://github.com/olefSch/gcp-llm-tracing-and-monitoring"
     },
     {
-      title: "Tranlation Library",
+      title: "Translation Library",
       description: "This library provides an easy-to-use interface for translating text using both local transformer models and large language models (LLMs) from popular providers.",
       technologies: ["Python", "Ollama", "Hugging Face"],
       github: "https://easy-nlp-translate.de/"
