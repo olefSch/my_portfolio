@@ -10,15 +10,15 @@ const PortfolioFooter = () => {
       url: "https://github.com/olefSch",
     },
     {
-      name: "LinkedIn", 
+      name: "LinkedIn",
       icon: Linkedin,
-      url: "https://www.linkedin.com/in/ole-schildt-5491a1253/",
+      url: "https://www.linkedin.com/in/ole-schildt/",
     },
     {
       name: "Medium",
       icon: BookOpen,
       url: "https://medium.com/@olefSch",
-    }
+    },
   ];
 
   return (
@@ -31,9 +31,13 @@ const PortfolioFooter = () => {
               Ole <span className="gradient-text">Schildt</span>
             </h3>
             <div className="flex justify-center space-x-6 mb-4">
-              {socialLinks.map(social => (
+              {socialLinks.map((social) => (
                 <Button key={social.name} size="sm" variant="ghost" asChild>
-                  <a href={social.url} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <social.icon className="w-5 h-5" />
                   </a>
                 </Button>
